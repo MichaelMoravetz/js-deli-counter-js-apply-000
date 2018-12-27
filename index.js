@@ -26,11 +26,11 @@ function currentLine(katzDeliLine) {
 
 
 function takeANumber(line){
- var counter = 0
+ var counter = line.length
  counter++
  line.push(counter)
-}
 return `Welcome! You're ticket number #${counter}`
+}
 
 takeANumber(line) // "Welcome! You're ticket number #1" [1]
 takeANumber(line) // "Welcome! You're ticket number #2" [1,2]
