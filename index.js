@@ -21,3 +21,12 @@ function currentLine(katzDeliLine) {
   }
       return `The line is currently: ${line.join(", ")}`
 }
+
+
+
+
+function takeANumber(line){
+}
+
+
+
